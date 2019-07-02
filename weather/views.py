@@ -15,3 +15,6 @@ def comparison_alert(request):
 
 def index(request):
     return render(request, 'weather/index.html')
+ 
+def mapscreen(request):
+  return render(request, 'weather/mapscreen.html')

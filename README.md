@@ -10,6 +10,7 @@ URL: `http://<your host IP here>:8000/weather/`
 * Forecast (single location) with alert: `weather/templates/weather/forecast-alert.html`
 * Comparison across locations no alert: `weather/templates/weather/comparison.html`
 * Comparison across locations with alert: `weather/templates/weather/comparison-alert.html`
+* Map : `weather/templates/weather/map.html`
 * CSS for styling: `weather/static/weather/css/style.css`
 
 ### URLs to access
@@ -18,3 +19,4 @@ URL: `http://<your host IP here>:8000/weather/`
 * Forecast (single location) with alert: `weather/templates/weather/forecast/alert/`
 * Comparison across locations no alert: `weather/templates/weather/comparison/`
 * Comparison across locations with alert: `weather/templates/weather/comparison/alert/`
+* Map: `weather/templates/weather/map/`

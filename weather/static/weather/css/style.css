@@ -1,3 +1,32 @@
-li {
-    color: green;
+
+
+@media (min-width: 576px) { 
+  h1 {
+      color: black;
+  }
+  
+  .forecast {
+    margin-left: 10px;
+  }
+  .centerImage
+{
+ text-align:center;
+ display:block;
 }
+  .image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.relative{position:relative; width:600px;}
+.absolute-text{position:absolute; bottom:0; font-size:24px; font-family:"vedana"; background:rgba(251,251,251,0.5);
+padding:10px 20px; width:100%; text-align:center;}
+.absolute-text a{font-size:16px; color:#b92b27;}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
